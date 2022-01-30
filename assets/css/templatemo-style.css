@@ -803,6 +803,7 @@ section.contact-me {
         width: 36px;
         height: 36px;
         line-height: 36px;
+        padding-top: 10;
     }
 
     .menu .social-network ul li {
