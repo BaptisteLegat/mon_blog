@@ -1,0 +1,501 @@
+<?php
+if($_POST) {
+
+$message=$_POST['text'];
+$expéditeur =$_POST['email'];
+$message .=$_POST['subject'];
+$message .=$_POST['message'];
+mail("legatbaptiste@gmail.com", "sujet du courrier", $message, "From: '$expéditeur'") ;
+
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+
+  <title>Bienvenue sur mon site !</title>
+  <!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+  <link rel="stylesheet" href="assets/css/owl.css" />
+  <link rel="stylesheet" href="assets/css/lightbox.css" />
+  <link rel="stylesheet" href="assets/css/test.css">
+</head>
+
+<body>
+  <div id="page-wraper">
+    <!-- Sidebar Menu -->
+    <div class="responsive-nav">
+      <i class="fa fa-bars" id="menu-toggle"></i>
+      <div id="menu" class="menu">
+        <i class="fa fa-times" id="menu-close"></i>
+        <div class="container">
+          <div class="image">
+            <a href="#"><img src="assets/images/photo_de_profil.JPG" alt="" /></a>
+          </div>
+          <div class="author-content">
+            <h1>Baptiste Legat</h1>
+            <span>Futur développeur web/mobile</span>
+          </div>
+          <nav class="main-nav" role="navigation">
+            <ul class="main-menu">
+              <li><a href="#section1">About Me</a></li>
+              <li><a href="#section2">Mes compétences</a></li>
+              <li><a href="#section3">Mes formations</a></li>
+              <li><a href="#section4">Mes réalisations</a></li>
+              <li><a href="#section5">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="social-network">
+            <ul class="soial-icons">
+              <li>
+                <a href="https://twitter.com/baptou2luxe"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/baptiste-legat-pro/"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-text">
+            <p>Copyright 2021 | Baptiste Legat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section about-me" data-section="section1">
+      <div class="container">
+        <div class="wrapper">
+          <span>A</span>
+          <span>B</span>
+          <span>O</span>
+          <span>U</span>
+          <span>T</span>
+          <span>M</span>
+          <span>E</span>
+        </div>
+        <div class="section-heading">
+          <div class="line-dec"></div>
+          <span>
+            Actuellement en 2ème année de DUT informatique à Lyon 1, je suis à la recherche d'un stage de 10 à 12
+            semaines à partir du 11 avril 2022.
+            Je recherche également une alternance pour une durée de 3 ans pour avoir mon diplome de master dans le
+            développpement.
+          </span>
+        </div>
+        <div class="left-image-post">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="left-image">
+                <img src="assets/images/img1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right-text">
+                <h4>Intéressé par le développement</h4>
+                <p>
+                  Depuis le lycée, j'ai découvert un fort intéret envers les nouvelles technologies et l'informatique.
+                  Depuis mon entrée en DUT ainsi de la mise en place de projets,
+                  j'aime beaucoup développer et mettre en place des projets afin qu'ils se déroulent dans de bonne
+                  conditions (<i>Agile!</i>) .<br><br> C'est pour cette raison que j'ai décider de me diriger vers cette
+                  section dans le monde de <b>L'INFORMATIQUE</b>! <br> <br><u>Curieux</u> j'ai donc décider de
+                  m'intéresser
+                  au développement d'applications mobiles et notamment sur <b>IOS</b>. J'ai donc commencer à m'initier
+                  au langage <b>Swift</b> pour réaliser une petite application.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-image-post">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="left-text">
+                <h4>Passioné par les sneakers </h4>
+                <p>
+                  Depuis un peu plus de 3 ans, j'ai découvert le monde de la mode et plus spécialement les sneakers. Je
+                  passe beaucoup de temps à me renseigner
+                  sur les prochaines sorties des grandes marques tels que Nike, Adidas et New Balance ou des marques de
+                  luxe comme Off WHite, Yeezy et Sacai. <br><br>
+                  Pour moi ce n'est pas seulement des paires de chaussures simple mais c'est un <b>ART</b>. Nous pouvons
+                  faire de bel outfit (tenue) pour ainsi assortir
+                  ses vêtements avec sa paire de sneaker. <br> <br> C'est aussi un objet de collection avec des
+                  limitations de productions en fonction du modèle et la présence de
+                  collaboration avec des artistes ou des marques. <br> <br>
+                  <u> Si tu souhaites en savoir plus clique sur le bouton !</u>
+                </p>
+                <div class="white-button">
+                  <a href="#">En cours...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right-image">
+                <img src="assets/images/img2.jpg" alt="" />
+                <p>Voici la petite collection que j'ai actuellement :) </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section my-services" data-section="section2">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Mes comptétences</h2>
+          <div class="line-dec"></div>
+          <span>Depuis le lycée j'ai pu acquérir des compétences dans différents domaines. Ci-dessous vous trouverez les
+            domaines où je me sens compétents avec des informations complémentaires.
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="first-service-icon service-icon"></div>
+              <h3>Front-end</h3>
+              <p>
+                Je sais utilisé les bases du web telles que l'HTML5 et le CSS3. Je commence à apprendre le JS et à
+                manipuler des fichier SCSS. Faire une application web/mobile avec un joli design tout en étant
+                responsive est une perspective importante pour satisfaire les futurs potentiels clients<br> <br>De plus,
+                je commence à m'intéresser
+                au développement d'applications mobiles notamment sur IOS avec le langage Swift.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="second-service-icon service-icon"></div>
+              <h3>Back-end</h3>
+              <p>
+                Depuis ma deuxième année de mon DUT, j'ai su apprendre le langage PHP. Nous avons également appris
+                à utiliser le framework Symfony. <br> <br> Celui-ci m'a permis de comprendre et à manipuler une
+                architecture MVC et
+                de découvrir le langage Twig pour le front.
+                Enfin, ce framework m'a également servi à utiliser les différentes librairies pour nous facilité les
+                différents tâches à faire et d'apprendre le système de migration
+                vers la base de donnée.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="third-service-icon service-icon"></div>
+              <h3>Base de données</h3>
+              <p>
+                Je sais faire des requêtes SQL ou PL/SQL afin de gérer ma base donnée et de pouvoir utiliser mes
+                requêtes pour envoyer/réceptioner des données.<br> <br>
+                En utilisant PhpMyAdmin comportant MySQL et MariaDB je peux créer, modifier ou supprimer les
+                informations que je souhaite pour le bon fonctionnement de mon site
+                que se soit utilisateur ou administrateur.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="fourth-service-icon service-icon"></div>
+              <h3>Logiciels</h3>
+              <p>
+                Depuis mon cursus en informatique, j'apprécie utiliser certains logiciels qui sont nécéssaires pour une
+                bonne pratique.
+                J'utilise principalement Visual Studio pour le code ou XCode sur IOS. <br> <br> Pour les bases de
+                données, j'utilise SQL Développer afin de pouvoir tester mes requêtes.
+                Enfin pour une bonne gestion d'un travail de groupe, j'utilise le logiciel de versionning GIT.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="five-service-icon service-icon"></div>
+              <h3>Modélisation</h3>
+              <p>
+                Avant tout début de projet, il est nécessaire de faire une étude du projet. En effet, il est impératif
+                de faire des diagrammes UML afin de comprendre
+                le besoin du client. <br> <br>Pour cela, savoir faire des diagrammes tels que celui GANTT, de cas
+                d'utilisations, de classes ou d'activités font partis de mes compétences.
+                Enfin la modélisation des données est aussi important pour le projet concerné.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-item">
+              <div class="six-service-icon service-icon"></div>
+              <h3>Autres compétences</h3>
+              <p>
+                Lors de mes différents cours, j'ai pu apprendre et mettre en pratique de la gestion de projet.
+                J'ai travailler sur mes projets en utilisant les méthodes agiles pour une meilleur organisation. <br>
+                <br>
+                Ceci nous a permis d'évité de prendre du retard sur certaines tâches à effectuer. Pour finir, je
+                connais les bases des langages Java et du C/C# qui sont aussi souvent utiliser pour des projets dans le
+                développement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center-btn">
+        <form method="get" action="../Mon_blog/assets/CV-LEGAT-BAPTISTE.pdf">
+          <button class="noselect" type="submit">Télécharge mon CV !</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section about-me" data-section="section3">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Mes formations</h2>
+          <div class="line-dec"></div>
+          <span>Voici le parcours que j'ai eu depuis mon lycée :</span>
+        </div>
+        <div class="left-image-post">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="left-image">
+                <img src="assets/images/logo_lyon1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right-text">
+                <h4>DUT informatique</h4>
+                <p>
+                  J'ai intégré en 2020 le DUT informatique de Lyon 1. Cette formation dure 2 ans et ce valide via le
+                  contrôle continue, TP et des partiels.
+                  Nous avons un stage en fin de deuxième année pour valider notre diplôme. J'ai choisis cette formation
+                  car je souhaite travailler dans l'informatique plus
+                  tard et je ne savais pas dans quel domaine. <br> <br> Cette formation nous forme sur un ensenble de
+                  modules en informatiques tous différents comme le réseau, l'algorithmie, et différents langages
+                  (Python, C, Java, ect...).
+                  Nous avons aussi un unité d'enseignement général où nous avons eu des mathématiques, comptabilité,
+                  droit informatique, communication, gestion des SI, et du management.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-image-post">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="left-text">
+                <h4>Baccalauréat STI2D optin SIN</h4>
+                <p>
+                  J'ai effectué un baccalauréat technologique afin de pouvoir pratiquer. En effet je pense que la
+                  pratique est le meilleur moyen d'apprendre.
+                  J'ai choisi la spécialitée SIN (Système d'Information et Numérique) pour découvrir l'informatique que
+                  se soit en théorie
+                  (par exemple apprendre à convertir des bases: binaire, décimal et héxadécimal) et en pratique. <br>
+                  <br> Au niveau de la pratique, nous avons eu un projet
+                  (non abouti) où notre objectif était de faire une piscine autonome (maquette). Nous avons du faire une
+                  révu de projet et de réaliser un cahier des charges
+                  ainsi que des diagrammes. Enfin nous avons appris à utiliser Android Studio pour faire l'application
+                  de contrôle de la piscine et l'utilisation d'Arduino qui est une plateforme de prototypage
+                  open-source.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right-image">
+                <img src="assets/images/logo_lycee.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section my-work" data-section="section4">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Mes réalisations</h2>
+          <div class="line-dec"></div>
+          <span> Dans cette section, vous trouverez des projets que j'ai réalisé ou qui sont en cours. Ce sont des projets réalisés en groupe.</span>
+        </div>
+        <div class="row">
+          <div class="isotope-wrapper">
+            <div class="isotope-box">
+              <div class="isotope-item" data-type="nature">
+                <figure class="snip1321">
+                  <img src="assets/images/img_rea_1.png" alt="sq-sample26" />
+                  <figcaption>
+                    <a href="assets/images/img_rea_1.png" data-lightbox="image-1" data-title="Image de l'écran de démarage"><i
+                        class="fa fa-search"></i></a>
+                    <h3>Le destin des Ca-Sinkas</h3>
+                    <span>C'est un jeu vidéo 2D type platformer à l'instar de Mario Bros.</span>
+                    <form method="get" action="../Mon_blog/assets/images/VideoPtutS3_2022_Jeux2D_Unity LB_VC_BL_LJ WR.mp4">
+                      <button class="noselect" type="submit">Télécharge le triller</button>
+                    </form>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="isotope-item" data-type="people">
+                <figure class="snip1321">
+                  <img src="assets/images/img_rea_2.png" alt="sq-sample26" />
+                  <figcaption>
+                    <a href="assets/images/img_rea_2_1.png" data-lightbox="image-1" data-title="Photo de l'accueil du site en administrateur"><i
+                        class="fa fa-search"></i></a>
+                    <h3>Site web de L'Open de Tennis</h3>
+                    <span>Site dynamique réalisé avec Symfony permettant la gestion des hébergements des joueurs avec une partie utilisateur et administrateur</span>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="isotope-item" data-type="animals">
+                <figure class="snip1321">
+                  <img src="assets/images/img_rea_3.png" alt="sq-sample26" />
+                  <figcaption>
+                    <a href="assets/images/img_rea_3_1.png" data-lightbox="image-1" data-title="Voici l'écran d'accueil du site marchand"><i
+                        class="fa fa-search"></i></a>
+                    <h3>Site web d'achat de backets</h3>
+                    <span>Site statique réalisé en HTML5 et CSS3</span>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="isotope-item" data-type="people">
+                <figure class="snip1321">
+                  <img src="assets/images/img_rea_4.png" alt="sq-sample26" />
+                  <figcaption>
+                    <a href="assets/images/img_rea_4_1.png" data-lightbox="image-1" data-title="Photo de l'accueil en étant administrateur"><i
+                        class="fa fa-search"></i></a>
+                    <h3>Site web d'un blog en Symfony</h3>
+                    <span>Ce site permet de mettre des posts et de les commenter. Il y a une partie utilisateur et administrateur</span>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-me" data-section="section5">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Contact</h2>
+          <div class="line-dec"></div>
+          <span>
+            Si tu souhaites prendre contact avec moi ou que tu as des questions particulières n'hésites pas à remplir le
+            formulaire
+            juste en dessous :)
+          </span>
+        </div>
+        <div class="row">
+          <div class="right-content">
+            <div class="container">
+              <form id="contact" action="https://formspree.io/f/mqknpagr" method="post">
+                <div class="row">
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input name="NomPrenom" type="text" class="form-control" id="name" placeholder="Ton nom et prénom..."
+                        required />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-6">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" placeholder="Ton email..."
+                        required />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Sujet..."
+                        required />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message"
+                        placeholder="Ton commentaire..." required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="noselect">
+                        Envoyez
+                      </button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    //according to loftblog tut
+    $(".main-menu li:first").addClass("active");
+
+    var showSection = function showSection(section, isAnimate) {
+      var direction = section.replace(/#/, ""),
+        reqSection = $(".section").filter(
+          '[data-section="' + direction + '"]'
+        ),
+        reqSectionPos = reqSection.offset().top - 0;
+
+      if (isAnimate) {
+        $("body, html").animate(
+          {
+            scrollTop: reqSectionPos
+          },
+          800
+        );
+      } else {
+        $("body, html").scrollTop(reqSectionPos);
+      }
+    };
+
+    var checkSection = function checkSection() {
+      $(".section").each(function () {
+        var $this = $(this),
+          topEdge = $this.offset().top - 80,
+          bottomEdge = topEdge + $this.height(),
+          wScroll = $(window).scrollTop();
+        if (topEdge < wScroll && bottomEdge > wScroll) {
+          var currentId = $this.data("section"),
+            reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+          reqLink
+            .closest("li")
+            .addClass("active")
+            .siblings()
+            .removeClass("active");
+        }
+      });
+    };
+
+    $(".main-menu").on("click", "a", function (e) {
+      e.preventDefault();
+      showSection($(this).attr("href"), true);
+    });
+
+    $(window).scroll(function () {
+      checkSection();
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+.wrapper {
+  width: 100vw;
+  text-align: center;
+  display: table-cell;
+  padding-bottom: 10%;
+}
+
+.wrapper span {
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: #000;
+  font-size: 60px;
+  text-shadow: 0 0px red, 0 0px black;
+  -webkit-transform: translate(0, 100%) rotate(4deg);
+          transform: translate(0, 100%) rotate(4deg);
+  -webkit-animation: jump 2s ease-in-out infinite;
+          animation: jump 2s ease-in-out infinite;
+  display: inline-block;
+  font-family: "Titan One", cursive;
+  color: #fff;
+  padding-bottom: 10%;
+}
+
+.wrapper span:nth-child(1) {
+  -webkit-animation-delay: 120ms;
+          animation-delay: 120ms;
+}
+
+.wrapper span:nth-child(2) {
+  -webkit-animation-delay: 240ms;
+          animation-delay: 240ms;
+}
+
+.wrapper span:nth-child(3) {
+  -webkit-animation-delay: 360ms;
+          animation-delay: 360ms;
+}
+
+.wrapper span:nth-child(4) {
+  -webkit-animation-delay: 480ms;
+          animation-delay: 480ms;
+}
+
+.wrapper span:nth-child(5) {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.wrapper span:nth-child(6) {
+  -webkit-animation-delay: 720ms;
+          animation-delay: 720ms;
+}
+
+.wrapper span:nth-child(7) {
+  -webkit-animation-delay: 840ms;
+          animation-delay: 840ms;
+}
+
+@-webkit-keyframes jump {
+  33% {
+    text-shadow: 0 60px red, 0 150px black;
+  }
+  50% {
+    -webkit-transform: translate(0, 0) rotate(-4deg);
+            transform: translate(0, 0) rotate(-4deg);
+    text-shadow: 0 0px black, 0 0px red;
+  }
+  66.67% {
+    text-shadow: 0 -60px white, 0 -150px yellow;
+  }
+}
+
+@keyframes jump {
+  33% {
+    text-shadow: 0 60px yellow, 0 150px orange;
+  }
+  50% {
+    -webkit-transform: translate(0, 0) rotate(-4deg);
+            transform: translate(0, 0) rotate(-4deg);
+    text-shadow: 0 0px orange, 0 0px orangered;
+  }
+  66.67% {
+    text-shadow: 0 -60px orangered, 0 -150px black;
+  }
+}
+
+
+@media screen and (max-height: 200px) {
+  .wrapper {
+    -webkit-transform: scale(0.3, 0.3);
+            transform: scale(0.3, 0.3);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper span {
+    font-size: 50px;
+  }
+}
