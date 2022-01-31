@@ -903,6 +903,7 @@ section.contact-me {
     .isotope-item {
         width: 94%;
         margin: 3%;
+        
     }
     .left-image-post img {
         margin-bottom: 30px;
@@ -917,6 +918,13 @@ section.contact-me {
     .isotope-toolbar {
         margin-bottom: 20px;
     }
+
+    @media screen and (max-width: 845px) {
+    .isotope-item {
+    border-bottom: none;
+    text-align: center;
+    background: blue;
+}
 
     @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 .wrapper {
