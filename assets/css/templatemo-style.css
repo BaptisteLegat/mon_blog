@@ -5,12 +5,14 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/img1.jpg) no-repeat center fixed;
+    background: url(../images/img1.jpg);
     -webkit-background-size: cover;
-    -moz-background-size: auto;
-    -o-background-size: auto;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
