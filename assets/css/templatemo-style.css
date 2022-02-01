@@ -637,6 +637,12 @@ section.my-work .section-heading {
 .second {
     background-image: url("../images/img_rea_2.png");
 }
+.third {
+    background-image: url("../images/img_rea_3.png");
+}
+.fourth {
+    background-image: url("../images/img_rea_4.png");
+}
 .isotope-item img {
     top: 0;
     left: 0;
@@ -657,8 +663,8 @@ section.my-work .section-heading {
 figure.snip1321 {
   overflow: hidden;
   text-align: center;
-  -webkit-perspective: 50em;
-  perspective: 50em;
+  /* -webkit-perspective: 50em;
+  perspective: 50em; */
 }
 figure.snip1321 * {
   -webkit-box-sizing: padding-box;
@@ -932,6 +938,12 @@ section.contact-me {
     }
     .second {
       background-image: url("../images/img_rea_2.png");
+    }
+    .third {
+        background-image: url("../images/img_rea_3.png");
+    }
+    .fourth {
+        background-image: url("../images/img_rea_4.png");
     }
 }
 
