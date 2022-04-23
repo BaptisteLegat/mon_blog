@@ -643,8 +643,17 @@ section.my-work .section-heading {
     background-image: url("../images/img_rea_3.png");
 }
 .fourth {
-    background-image: url("../images/img_rea_4.png");
+   background-image: url("../images/img_rea_4.png");
 }
+.five {
+    background-image: url("../images/img_rea_5.png");
+ } 
+ .six {
+    background-image: url("../images/img_rea_6.png");
+ } 
+ .seven {
+    background-image: url("../images/img_rea_7.png");
+ } 
 .isotope-item img {
     top: 0;
     left: 0;
